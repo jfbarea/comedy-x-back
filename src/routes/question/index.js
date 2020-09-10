@@ -7,5 +7,5 @@ const BASE_URL = '/question';
 module.exports = [
   { method: 'get', url: BASE_URL, handler: get },
   // { method: 'post', url: BASE_URL, handler: post },
-  // { method: 'get', url: `${BASE_URL}/all`, handler: list }
+  { method: 'get', url: `${BASE_URL}/all`, handler: list }
 ]
