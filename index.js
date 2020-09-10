@@ -1,3 +1,4 @@
+if (!process.env.HEROKU) require('dotenv').config();
 const express = require('express')();
 const port = process.env.PORT || 3000;
 
