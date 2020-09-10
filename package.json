@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jfbarea/comedy-x-back/issues"
   },
-  "homepage": "https://github.com/jfbarea/comedy-x-back#readme"
+  "homepage": "https://github.com/jfbarea/comedy-x-back#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
