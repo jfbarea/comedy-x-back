@@ -105,3 +105,6 @@ dist
 
 # IntelliJ
 .idea
+
+# .env files
+.env*
