@@ -1,6 +1,11 @@
 if (!process.env.HEROKU) require('dotenv').config();
 const express = require('express')();
+const cors = require('cors');
+const bodyParser = require('body-parser');
 const port = process.env.PORT || 3000;
+
+express.use(cors());
+express.use(bodyParser.json());
 
 const providers = require('./providers');
 const services = require('./routes');
