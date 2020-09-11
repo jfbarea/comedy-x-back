@@ -12,7 +12,5 @@ const MANDATORY_HEADER = 'cmdx-admin';
       }));
 
       res.send();
-    }
-
-    res.status(400).end();
+    } else res.status(400).end();
 }

@@ -10,8 +10,7 @@ module.exports = async (req, res) => {
         {id: o.id, text: o.text, score: o.score + 1}
         : o;
     });
-    console.log(active.options);
     await active.save();
     res.send(active);
-  } else res.send();
+  } else res.status(400).end();
 }
