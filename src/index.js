@@ -17,6 +17,6 @@ const init = async () => {
 };
 
 express.listen(port, async () => {
-  console.log(`Comedy-x-back listening on ${port}`);
   await init()
+  console.log(`Comedy-x-back listening on ${port}`);
 });
